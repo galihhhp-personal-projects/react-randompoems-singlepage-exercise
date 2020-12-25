@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Teko', sans-serif;
+    src: ("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap")
+}
+
+@font-face {
+    font-family: 'Share Tech Mono', monospace;
+    src: ("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap")
+}
+
+.d-flex {
+    height: 98.36vh;
+}
+
+body {
+    background-color: black;
+}
+
+.title {
+    margin-top: 80px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Teko';
+}
+
+.content {
+    color: white;
+    font-family: 'Share Tech Mono';
+}
+
+.author {
+    color: white;
+    font-family: 'Share Tech Mono';
+    text-align: left;
+}
+
+button {
+    background-color: #fff;
+    border-color: none;
+    border-radius: 10px;
+    width: 20%;
+    height: 5%;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 20%;
+    height: 5%;
+    font-weight: bold;
+}
+
